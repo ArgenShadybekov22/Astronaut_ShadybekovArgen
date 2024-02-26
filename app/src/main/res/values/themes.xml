@@ -1,0 +1,25 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Astronaut_ShadybekovArgen" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.Astronaut_ShadybekovArgen" parent="Base.Theme.Astronaut_ShadybekovArgen" />
+
+<!-- Base application theme. -->
+<style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <!-- Customize your theme here. -->
+    <item name="colorPrimary">@color/colorPrimary</item>
+    <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+    <item name="colorAccent">@color/colorAccent</item>
+</style>
+
+<!-- Dark theme -->
+<style name="AppTheme.Dark" parent="Theme.AppCompat">
+    <item name="android:windowBackground">@color/colorDarkBackground</item>
+    <item name="android:textColorPrimary">@color/colorDarkText</item>
+    <item name="android:textColorSecondary">@color/colorDarkTextSecondary</item>
+    <!-- Add other dark theme attributes here -->
+</style>
+</resources>
